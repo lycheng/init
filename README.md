@@ -1,0 +1,2 @@
+# init
+personal linux init
