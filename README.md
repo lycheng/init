@@ -1,15 +1,11 @@
 # init
 personal linux init
 
-
-
 ## Terminal
 
 Oh-My-Zsh + Tmux
 
-
 目前只用 z 和 git 插件
-
 
 ## Vim
 
@@ -27,7 +23,6 @@ BundleInstall
 BundleInstall!
 ```
 
-
 ### YCM
 
 使用 [YouCompleteMe](http://vim.spf13.com/#instal://github.com/Valloric/YouCompleteMe) 的代码提示功能
@@ -36,4 +31,10 @@ BundleInstall!
 ```
 cd ~/.vim/bundle/YouCompleteMe
 sudo ./install.sh --clang-completer
+```
+
+### SSH
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
