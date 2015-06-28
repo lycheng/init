@@ -33,8 +33,29 @@ cd ~/.vim/bundle/YouCompleteMe
 sudo ./install.sh --clang-completer
 ```
 
-### SSH
+## SSH
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+## 键盘大写锁定键
+
+```
+setxkbmap -layout us -option ctrl:nocaps
+```
+上述的代码重启后失效，也可通过 tweak 去修改
+
+
+```
+sudo apt-get install gnome-tweak-tool -y && gnome-tweak-tool
+```
+Typing -> Caps Lock key behavior
+
+## GIT
+
+```
+git config --global user.name 'lycheng'
+git config --global user.email example@example.com
+git config --global core.editor vim
 ```

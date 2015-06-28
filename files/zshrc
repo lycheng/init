@@ -71,3 +71,4 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+setxkbmap -layout us -option ctrl:nocaps
