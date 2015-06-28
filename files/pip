@@ -3,3 +3,4 @@ ipython
 redis
 torndb
 pyflakes
+netaddr
