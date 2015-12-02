@@ -4,6 +4,7 @@ sudo apt-get upgrade
 sudo apt-get install git
 sudo apt-get install python-pip
 sudo apt-get install python-MySQLdb
+sudo apt-get install silversearcher-ag
 
 # oh my zsh
 sudo apt-get install zsh
