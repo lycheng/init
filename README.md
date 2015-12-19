@@ -59,3 +59,9 @@ git config --global user.name 'lycheng'
 git config --global user.email example@example.com
 git config --global core.editor vim
 ```
+
+## Tmux
+
+现在的 prefix 是 ctrl + x
+
+可用通过 xclip 复制到系统粘贴板

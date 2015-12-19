@@ -5,6 +5,7 @@ sudo apt-get install git
 sudo apt-get install python-pip
 sudo apt-get install python-MySQLdb
 sudo apt-get install silversearcher-ag
+sudo apt-get install xclip
 
 # oh my zsh
 sudo apt-get install zsh
@@ -28,3 +29,4 @@ sudo apt-get install python-dev
 sudo npm install -g jsonlint
 sudo npm install -g csslint
 sudo npm install -g jshint
+sudo ln -s /usr/bin/nodejs /usr/bin/node
