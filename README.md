@@ -64,4 +64,28 @@ git config --global core.editor vim
 
 现在的 prefix 是 ctrl + x
 
-可用通过 xclip 复制到系统粘贴板
+常用快捷键
+
+### pane
+```
+prefix + % # 分成上下两个 pane
+prefix + " # 分成左右两个 pane
+
+prefix + [h j k l] # 选择 pane
+
+prefix + [方向键]  # 按方向改变 pane 大小
+```
+
+### 复制粘贴
+
+```
+prefix + [ # 进入复制模式
+
+# 复制模式下按 enter 进行复制
+# 复制模式下按 y 复制到系统粘贴版
+# 需要 xclip 支持
+
+prefix + ] # 粘贴刚所选的东西
+
+
+```
