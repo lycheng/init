@@ -30,3 +30,8 @@ sudo npm install -g jsonlint
 sudo npm install -g csslint
 sudo npm install -g jshint
 sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+
+# golang
+sudo apt-get install golang
+sudo apt-get install golang-go.tools
