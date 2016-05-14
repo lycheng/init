@@ -16,7 +16,7 @@ chsh -s `/bin/zsh`
 sudo apt-get install tmux
 
 # vim
-sudo apt-get install vim
+sudo apt-get install vim-nox
 git clone git://github.com/lycheng/dot-vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
