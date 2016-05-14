@@ -3,5 +3,4 @@ ipython
 redis
 torndb
 pyflakes
-netaddr
 flake8
