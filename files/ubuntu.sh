@@ -1,16 +1,15 @@
-sudo apt-apt update
+sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt-get install git
 sudo apt-get install python-pip
-sudo apt-get install python-MySQLdb
+sudo apt-get install python-mysqldb
 sudo apt-get install silversearcher-ag
 sudo apt-get install xclip
 
 # oh my zsh
 sudo apt-get install zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-chsh -s `/bin/zsh`
 
 # tmux
 sudo apt-get install tmux

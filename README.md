@@ -5,7 +5,39 @@ personal linux init
 
 Oh-My-Zsh + Tmux
 
-目前只用 z 和 git 插件
+在所有的更新结束之后执行下面的命令修改默认的 shell
+
+```
+chsh -s `/bin/zsh`
+```
+
+### Tmux
+
+现在的 prefix 是 ctrl + x
+
+常用快捷键
+
+#### pane
+```
+prefix + % # 分成上下两个 pane
+prefix + " # 分成左右两个 pane
+
+prefix + [h j k l] # 选择 pane
+
+prefix + [方向键]  # 按方向改变 pane 大小
+```
+
+#### 复制粘贴
+
+```
+prefix + [ # 进入复制模式
+
+# 复制模式下按 enter 进行复制
+# 复制模式下按 y 复制到系统粘贴版
+# 需要 xclip 支持
+
+prefix + ] # 粘贴刚所选的东西
+```
 
 ## Vim
 
@@ -27,10 +59,9 @@ BundleInstall!
 
 使用 [YouCompleteMe](http://vim.spf13.com/#instal://github.com/Valloric/YouCompleteMe) 的代码提示功能
 
-在使用我 fork 出来的 vim 插件版本更新之后编译使用
 ```
 cd ~/.vim/bundle/YouCompleteMe
-sudo ./install.sh --clang-completer
+./install.sh --clang-completer --gocode-completer
 ```
 
 ## SSH
@@ -58,34 +89,4 @@ Typing -> Caps Lock key behavior
 git config --global user.name 'lycheng'
 git config --global user.email example@example.com
 git config --global core.editor vim
-```
-
-## Tmux
-
-现在的 prefix 是 ctrl + x
-
-常用快捷键
-
-### pane
-```
-prefix + % # 分成上下两个 pane
-prefix + " # 分成左右两个 pane
-
-prefix + [h j k l] # 选择 pane
-
-prefix + [方向键]  # 按方向改变 pane 大小
-```
-
-### 复制粘贴
-
-```
-prefix + [ # 进入复制模式
-
-# 复制模式下按 enter 进行复制
-# 复制模式下按 y 复制到系统粘贴版
-# 需要 xclip 支持
-
-prefix + ] # 粘贴刚所选的东西
-
-
 ```
