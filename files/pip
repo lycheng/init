@@ -3,5 +3,5 @@ ipython
 redis
 torndb
 pyflakes
-netaddr
 flake8
+virtualenvwrapper
