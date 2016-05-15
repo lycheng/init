@@ -54,7 +54,6 @@ source $ZSH/oh-my-zsh.sh
 
 export GOPATH=/home/lycheng/projects/go
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$GOPATH/bin"
->>>>>>> 15060e5f77c26900f95d4b9519dec613edb557fe
 alias tmux="TERM=screen-256color-bce tmux"
 # export MANPATH="/usr/local/man:$MANPATH"
 #
