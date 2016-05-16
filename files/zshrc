@@ -73,3 +73,4 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 export WORKON_HOME=~/Env
 source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/aws_zsh_completer.sh
