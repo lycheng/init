@@ -75,3 +75,4 @@ export WORKON_HOME=~/Env
 source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# source /usr/local/bin/aws_zsh_completer.sh
