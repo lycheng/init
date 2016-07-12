@@ -1,7 +1,5 @@
 requests
 ipython
-redis
-torndb
 pyflakes
 flake8
 virtualenvwrapper

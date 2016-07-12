@@ -2,8 +2,8 @@ sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt-get install git
+sudo apt-get install python-dev
 sudo apt-get install python-pip
-sudo apt-get install python-mysqldb
 sudo apt-get install silversearcher-ag
 sudo apt-get install xclip
 
@@ -20,11 +20,11 @@ git clone git://github.com/lycheng/dot-vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
+# vim requirements
 sudo apt-get install ack-grep ctags
 sudo apt-get install CMake
 sudo apt-get install nodejs
 sudo apt-get install npm
-sudo apt-get install python-dev
 sudo npm install -g jsonlint
 sudo npm install -g csslint
 sudo npm install -g jshint
