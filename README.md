@@ -1,8 +1,10 @@
-# init
+init
+===
 
 personal linux init @ ubuntu 16.04 LTS
 
-## 简述
+简述
+---
 
 包含 Zsh + Tmux + Vim + Python + Golang 环境
 
@@ -12,7 +14,8 @@ personal linux init @ ubuntu 16.04 LTS
 chsh -s `/bin/zsh`
 ```
 
-## Tmux
+tmux
+---
 
 PS: 当前的使用的 tmux 需要 1.9+ 的版本，不然有些功能用不了
 
@@ -31,6 +34,7 @@ prefix 是 `ctrl + x`
 | prefix + x | 删掉当前的 pane | 需要确认 |
 | prefix + z | toggle pane zoom | |
 | prefix + space | toggle between layouts | |
+| prefix + t | 当前 pane 显示时间 | |
 
 ### window
 
@@ -39,8 +43,6 @@ prefix 是 `ctrl + x`
 | prefix + [0 ~ 9] | 选择相应的 window |      |
 | prefix + x | 删掉当前的 window | 需要确认 |
 | prefix + w | 列出当前的 window | |
-
-
 
 ### 编辑
 
@@ -53,7 +55,8 @@ prefix 是 `ctrl + x`
 - 复制模式下按 y 复制到系统粘贴版
 - 需要 xclip 支持
 
-## zsh
+zsh
+---
 
 使用 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 来管理 zsh 配置文件
 
@@ -62,7 +65,8 @@ prefix 是 `ctrl + x`
 1. Golang 的 `$GOPATH`
 2. virtualenvwrapper 的 `$WORKON_HOME`
 
-## other tips
+other tips
+---
 
 ### SSH
 
