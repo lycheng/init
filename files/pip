@@ -3,3 +3,4 @@ ipython
 pyflakes
 flake8
 virtualenvwrapper
+yapf
