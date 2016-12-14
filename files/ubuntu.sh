@@ -18,7 +18,7 @@ sudo apt-get install tmux
 sudo apt-get install vim-nox
 git clone git://github.com/lycheng/dot-vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # vim requirements
 sudo apt-get install ack-grep ctags
@@ -29,7 +29,6 @@ sudo npm install -g jsonlint
 sudo npm install -g csslint
 sudo npm install -g jshint
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-
 
 # golang
 sudo apt-get install golang
