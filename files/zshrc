@@ -53,7 +53,8 @@ plugins=(git z golang python virtualenvwrapper)
 source $ZSH/oh-my-zsh.sh
 
 export GOPATH=/home/lycheng/projects/go
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$GOPATH/bin"
+export GOROOT=/home/lycheng/bin/go-1.7.5
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 alias tmux="TERM=screen-256color-bce tmux"
 # export MANPATH="/usr/local/man:$MANPATH"
 #
@@ -70,8 +71,6 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
-export WORKON_HOME=~/Env
 source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
