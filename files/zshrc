@@ -51,10 +51,11 @@ ZSH_THEME="amuse"
 plugins=(git z golang python virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
+export LOCALBIN=$HOME/bin
 
-export GOPATH=/home/lycheng/projects/go
-export GOROOT=/home/lycheng/bin/go-1.7.5
-export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+export GOPATH=$HOME/projects/go
+export GOROOT=$LOCALBIN/go-1.7.5
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin:$HOME/.rvm/bin"
 alias tmux="TERM=screen-256color-bce tmux"
 # export MANPATH="/usr/local/man:$MANPATH"
 #
@@ -71,6 +72,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
+export WORKON_HOME=$LOCALBIN/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

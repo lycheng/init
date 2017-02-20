@@ -4,3 +4,6 @@ ln -s $CUR_DIR/files/tmux.conf ~/.tmux.conf
 
 sudo pip2 install -r files/pip
 sh files/ubuntu.sh
+
+mkdir -p $HOME/bin/virtualenv
+mkdir -p $HOME/projects
