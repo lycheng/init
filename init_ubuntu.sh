@@ -1,9 +1,9 @@
-CUR_DIR=`pwd`
-ln -s $CUR_DIR/files/zshrc ~/.zshrc
-ln -s $CUR_DIR/files/tmux.conf ~/.tmux.conf
+ln -s `pwd`/files/zshrc ~/.zshrc
+ln -s `pwd`/files/tmux.conf ~/.tmux.conf
 
-sudo pip2 install -r files/pip
+sudo pip install -r files/pip
 sh files/ubuntu.sh
 
 mkdir -p $HOME/bin/virtualenv
 mkdir -p $HOME/projects
+mkdir -p $HOME/.config
