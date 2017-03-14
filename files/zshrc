@@ -55,7 +55,7 @@ export LOCALBIN=$HOME/bin
 
 export GOPATH=$HOME/projects/go
 export GOROOT=$LOCALBIN/go-1.8
-export PATH="$PATH:$GOROOT/bin:$GOPATH/bin:$HOME/.rvm/bin"
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin:$HOME/.rvm/bin:$LOCALBIN/node/bin"
 alias tmux="TERM=screen-256color-bce tmux"
 # export MANPATH="/usr/local/man:$MANPATH"
 #
@@ -74,6 +74,5 @@ alias tmux="TERM=screen-256color-bce tmux"
 # export ARCHFLAGS="-arch x86_64"
 export WORKON_HOME=$LOCALBIN/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # source /usr/local/bin/aws_zsh_completer.sh

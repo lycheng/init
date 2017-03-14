@@ -5,5 +5,6 @@ sudo pip install -r files/pip
 sh files/ubuntu.sh
 
 mkdir -p $HOME/bin/virtualenv
+mkdir -p $HOME/bin/node
 mkdir -p $HOME/projects
 mkdir -p $HOME/.config

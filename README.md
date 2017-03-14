@@ -65,6 +65,22 @@ zsh
 1. Golang 的 `$GOPATH`
 2. virtualenvwrapper 的 `$WORKON_HOME`
 
+nodejs
+---
+
+现在使用的是下载然后编译安装的方式，路径为 `$HOME/bin/node`
+
+```
+git clone https://github.com/nodejs/node
+cd node
+./configure --prefix=$HOME/bin/node
+make install
+
+cd ..
+git clone https://github.com/npm/npm
+make install
+```
+
 other tips
 ---
 
