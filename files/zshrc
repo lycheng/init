@@ -55,7 +55,7 @@ export LOCALBIN=$HOME/bin
 
 export GOPATH=$HOME/projects/go
 export GOROOT=$LOCALBIN/go-1.8
-export PATH="$PATH:$GOROOT/bin:$GOPATH/bin:$HOME/.rvm/bin:$LOCALBIN/node/bin"
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin:$HOME/.rvm/bin:$LOCALBIN/node/bin:$LOCALBIN"
 alias tmux="TERM=screen-256color-bce tmux"
 # export MANPATH="/usr/local/man:$MANPATH"
 #
