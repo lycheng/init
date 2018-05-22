@@ -1,7 +1,7 @@
 init
 ===
 
-personal linux init @ ubuntu 16.04 LTS
+personal linux init @ ubuntu 18.04 LTS
 
 简述
 ---
@@ -98,15 +98,17 @@ setxkbmap -layout us -option ctrl:nocaps
 上述的代码重启后失效，也可通过 tweak 去修改
 
 
-```
-sudo apt-get install gnome-tweak-tool -y && gnome-tweak-tool
-```
-Typing -> Caps Lock key behavior
-
 ### GIT
 
 ```
 git config --global user.name 'lycheng'
 git config --global user.email example@example.com
 git config --global core.editor vim
+```
+
+### GNOME
+
+```
+# 设置 GNOME 只在当前的 workspace 切换程序
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
 ```

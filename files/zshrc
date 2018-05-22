@@ -57,7 +57,7 @@ export LOCALBIN=$HOME/bin
 
 export GOPATH=$HOME/projects/go
 export GOROOT=$LOCALBIN/go
-export PATH="$GOROOT/bin:$GOPATH/bin:$LOCALBIN/node/bin:$LOCALBIN:$PATH"
+export PATH="$GOROOT/bin:$GOPATH/bin:$LOCALBIN/node/bin:$LOCALBIN/clang/bin:$LOCALBIN:$PATH"
 alias tmux="TERM=screen-256color-bce tmux"
 
 # You may need to manually set your language environment
