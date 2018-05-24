@@ -81,6 +81,18 @@ git clone https://github.com/npm/npm
 make install
 ```
 
+
+python
+---
+
+```
+在 ~/.virtualenvs/postactivate 中加上
+
+PS1="$_OLD_VIRTUAL_PS1"
+_OLD_RPROMPT="$RPROMPT"
+RPROMPT="%{${fg_bold[white]}%}(env: %{${fg[green]}%}`basename \"$VIRTUAL_ENV\"`%{${fg_bold[white]}%})%{${reset_color}%} $RPROMPT"
+```
+
 other tips
 ---
 
@@ -112,3 +124,12 @@ git config --global core.editor vim
 # 设置 GNOME 只在当前的 workspace 切换程序
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 ```
+
+
+### powerline
+
+```
+# 安装字体
+sudo apt-get install fonts-powerline
+```
+
