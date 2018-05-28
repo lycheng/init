@@ -85,12 +85,16 @@ make install
 python
 ---
 
-```
-在 ~/.virtualenvs/postactivate 中加上
+参考 [Tips and Tricks](http://virtualenvwrapper.readthedocs.io/en/latest/tips.html)
 
+```
+# 在 ~/.virtualenvs/postactivate 中加上
 PS1="$_OLD_VIRTUAL_PS1"
 _OLD_RPROMPT="$RPROMPT"
 RPROMPT="%{${fg_bold[white]}%}(env: %{${fg[green]}%}`basename \"$VIRTUAL_ENV\"`%{${fg_bold[white]}%})%{${reset_color}%} $RPROMPT"
+
+# 在 ~/.virtualenvs/postdeactivate 中加上
+RPROMPT="$_OLD_RPROMPT"
 ```
 
 other tips
