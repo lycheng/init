@@ -26,9 +26,11 @@ export CLANGPATH=$LOCALBIN/clang/bin
 # Java
 export JAVA_HOME=$LOCALBIN/jdk
 export JRE_HOME=$LOCALBIN/jdk/jre
+export MAVEN_HOME=$LOCALBIN/maven
+export SPRING_HOME=$LOCALBIN/spring
 
 # PATH
-export PATH="$GOROOT/bin:$GOPATH/bin:$JAVA_HOME/bin:$NODEJSPATH:$CLANGPATH:$LOCALBIN:$PATH"
+export PATH="$GOROOT/bin:$GOPATH/bin:$JAVA_HOME/bin:$MAVEN_HOME/bin:$SPRING_HOME/bin:$NODEJSPATH:$CLANGPATH:$LOCALBIN:$PATH"
 
 # Python virtualenvwrapper
 export WORKON_HOME=$LOCALBIN/virtualenv
