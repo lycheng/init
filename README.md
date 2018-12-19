@@ -100,6 +100,12 @@ RPROMPT="$_OLD_RPROMPT"
 other tips
 ---
 
+### fzf
+
+git: https://github.com/junegunn/fzf
+
+`Ctrl + R` 用于命令的模糊搜索
+
 ### SSH
 
 ```
@@ -111,6 +117,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 setxkbmap -layout us -option ctrl:nocaps
 ```
+
 上述的代码重启后失效，也可通过 tweak 去修改
 
 

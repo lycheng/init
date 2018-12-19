@@ -34,3 +34,7 @@ cp files/flake8 $HOME/.config/flake8
 # golang
 sudo apt-get install golang
 sudo apt-get install golang-go.tools
+
+# fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
