@@ -22,6 +22,8 @@ plugins=(git z golang python virtualenvwrapper pipenv kubectl)
 
 # alias
 alias tmux="TERM=screen-256color-bce tmux"
+alias vimdiff='nvim -d'
+export EDITOR=nvim
 
 # Local bin path config
 source $ZSH/oh-my-zsh.sh

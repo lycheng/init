@@ -18,6 +18,8 @@ sudo apt install tmux
 
 # vim
 sudo apt install neovim
+sudo apt install python-neovim
+sudo apt install python3-neovim
 git clone git://github.com/lycheng/dot-vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim .config/nvim
