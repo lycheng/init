@@ -16,15 +16,17 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 # tmux
 sudo apt install tmux
 
-# vim
+# neovim
 sudo apt install neovim
 sudo apt install python-neovim
 sudo apt install python3-neovim
 git clone git://github.com/lycheng/dot-vimrc.git ~/.vim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim .config/nvim
 ln -s ~/.vimrc .config/nvim/init.vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # vim requirements
 sudo apt install ack-grep ctags
