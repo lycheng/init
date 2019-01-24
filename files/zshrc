@@ -34,6 +34,7 @@ export PATH="$LOCALBIN:$PATH"
 export GOPATH=$HOME/projects/go
 export GOROOT=$LOCALBIN/go
 export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
+set GO111MODULE=on
 
 # NodeJS
 export NODEJSPATH=$LOCALBIN/node/bin

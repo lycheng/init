@@ -28,6 +28,9 @@ ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim .config/nvim
 ln -s ~/.vimrc .config/nvim/init.vim
 
+pip install --user --upgrade pynvim
+pip install --user --upgrade neovim
+
 # vim requirements
 sudo apt install ack-grep ctags
 sudo apt install CMake

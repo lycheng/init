@@ -1,7 +1,7 @@
 init
 ===
 
-personal linux init @ ubuntu 18.04 LTS
+personal linux config @ ubuntu 18.04 LTS
 
 简述
 ---
@@ -23,7 +23,7 @@ prefix 是 `ctrl + x`
 
 常用快捷键
 
-### pane
+### Pane
 
 | 快捷键 | 用法  | 备注 |
 |--------|-------|------|
@@ -36,7 +36,7 @@ prefix 是 `ctrl + x`
 | prefix + space | toggle between layouts | |
 | prefix + t | 当前 pane 显示时间 | |
 
-### window
+### Window
 
 | 快捷键 | 用法  | 备注 |
 |--------|-------|------|
@@ -44,7 +44,7 @@ prefix 是 `ctrl + x`
 | prefix + x | 删掉当前的 window | 需要确认 |
 | prefix + w | 列出当前的 window | |
 
-### 编辑
+### Edit
 
 | 快捷键 | 用法  | 备注 |
 |--------|-------|------|
@@ -65,7 +65,7 @@ zsh
 1. Golang 的 `$GOPATH`
 2. virtualenvwrapper 的 `$WORKON_HOME`
 
-nodejs
+Node.js
 ---
 
 现在使用的是下载然后编译安装的方式，路径为 `$HOME/bin/node`
@@ -81,8 +81,7 @@ git clone https://github.com/npm/npm
 make install
 ```
 
-
-python
+Python
 ---
 
 参考 [Tips and Tricks](http://virtualenvwrapper.readthedocs.io/en/latest/tips.html)
@@ -97,7 +96,7 @@ RPROMPT="%{${fg_bold[white]}%}(env: %{${fg[green]}%}`basename \"$VIRTUAL_ENV\"`%
 RPROMPT="$_OLD_RPROMPT"
 ```
 
-other tips
+Other tips
 ---
 
 ### fzf
@@ -121,7 +120,7 @@ setxkbmap -layout us -option ctrl:nocaps
 上述的代码重启后失效，也可通过 tweak 去修改
 
 
-### GIT
+### Git
 
 ```
 git config --global user.name 'lycheng'
@@ -137,10 +136,9 @@ gsettings set org.gnome.shell.app-switcher current-workspace-only true
 ```
 
 
-### powerline
+### Powerline
 
 ```
 # 安装字体
 sudo apt-get install fonts-powerline
 ```
-
