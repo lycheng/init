@@ -65,6 +65,10 @@ export PATH="/snap/bin:$PATH"
 export WORKON_HOME=$LOCALBIN/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 
+# PIP user path
+export PIP_USER_BIN=$HOME/.local/bin
+export PATH="$PIP_USER_BIN:$PATH"
+
 # k8s
 source <(kubectl completion zsh)
 
