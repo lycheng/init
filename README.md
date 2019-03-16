@@ -17,8 +17,6 @@ chsh -s `/bin/zsh`
 tmux
 ---
 
-PS: 当前的使用的 tmux 需要 1.9+ 的版本，不然有些功能用不了
-
 prefix 是 `ctrl + x`
 
 常用快捷键
@@ -27,8 +25,8 @@ prefix 是 `ctrl + x`
 
 | 快捷键 | 用法  | 备注 |
 |--------|-------|------|
-| prefix + % | 分成上下两个 pane |      |
-| prefix + " | 分成左右两个 pane |      |
+| prefix + - | 分成上下两个 pane |      |
+| prefix + | | 分成左右两个 pane |      |
 | prefix + [h j k l] | 选择 pane |      |
 | prefix + [方向键] | 按方向改变 pane 大小 | 每次 10 个单位 |
 | prefix + x | 删掉当前的 pane | 需要确认 |
