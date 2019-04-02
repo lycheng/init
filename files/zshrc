@@ -16,9 +16,9 @@ setopt HIST_BEEP
 unsetopt SHARE_HISTORY
 unsetopt INC_APPEND_HISTORY
 
-ZSH_THEME="ys"
+ZSH_THEME="amuse"
 
-plugins=(git z golang python virtualenvwrapper pipenv kubectl)
+plugins=(git z golang python virtualenvwrapper kubectl docker)
 
 # alias
 alias tmux="TERM=screen-256color-bce tmux"
