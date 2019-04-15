@@ -8,8 +8,3 @@ mkdir -p $HOME/bin/virtualenv
 mkdir -p $HOME/bin/node
 mkdir -p $HOME/projects
 mkdir -p $HOME/.config
-
-source ~/.zshrc
-
-# vim venv init
-mkvirtualenv nvim
