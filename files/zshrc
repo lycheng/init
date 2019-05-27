@@ -23,7 +23,7 @@ plugins=(git z golang python virtualenvwrapper kubectl docker)
 # alias
 alias tmux="TERM=screen-256color-bce tmux"
 alias vimdiff='nvim -d'
-alias mvndeploy='mvn clean deploy -Duser.timezone=UTC'
+alias mdeploy='mvn clean deploy -Duser.timezone=UTC'
 export EDITOR=nvim
 
 # Local bin path config
