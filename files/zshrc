@@ -23,6 +23,7 @@ plugins=(git z golang python virtualenvwrapper kubectl docker)
 # alias
 alias tmux="TERM=screen-256color-bce tmux"
 alias vimdiff='nvim -d'
+alias mvndeploy='mvn clean deploy -Duser.timezone=UTC'
 export EDITOR=nvim
 
 # Local bin path config
@@ -73,3 +74,7 @@ export PATH="$PIP_USER_BIN:$PATH"
 source <(kubectl completion zsh)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# For AWS
+AWS_VAULT_BACKEND=secret-service
+export AWS_VAULT_BACKEND
