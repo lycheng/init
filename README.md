@@ -124,6 +124,9 @@ setxkbmap -layout us -option ctrl:nocaps
 git config --global user.name 'lycheng'
 git config --global user.email example@example.com
 git config --global core.editor vim
+
+# Git commit template
+git config --global commit.template ~/.git-commit-template
 ```
 
 ### GNOME
