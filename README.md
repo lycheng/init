@@ -126,6 +126,7 @@ git config --global user.email example@example.com
 git config --global core.editor vim
 
 # Git commit template
+# from: https://juejin.im/post/5afc5242f265da0b7f44bee4
 git config --global commit.template ~/.git-commit-template
 ```
 
