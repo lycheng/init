@@ -35,7 +35,10 @@ export PATH="$LOCALBIN:$PATH"
 export GOPATH=$HOME/projects/go
 export GOROOT=$LOCALBIN/go
 export PATH="$GOROOT/bin:$GOPATH/bin:$PATH"
-set GO111MODULE=on
+export GO111MODULE=on
+export GOPROXY=https://goproxy.io
+# export GOPROXY=http://mirrors.aliyun.com/goproxy/
+
 
 # NodeJS
 export NODEJSPATH=$LOCALBIN/node/bin
@@ -52,9 +55,14 @@ export MAVEN_HOME=$LOCALBIN/maven
 export SPRING_HOME=$LOCALBIN/spring
 export PATH="$JAVA_HOME/bin:$MAVEN_HOME/bin:$SPRING_HOME/bin:$PATH"
 
+# Groovy
+export GROOVY_HOME=$LOCALBIN/groovy
+export PATH="$GROOVY_HOME/bin:$PATH"
+
 # Rust
 export CARGO_HOME=$LOCALBIN/cargo/
 export PATH="$CARGO_HOME/bin:$PATH"
+
 # protoc
 export PROTOC_BIN=$LOCALBIN/protoc/bin
 export PATH="$PROTOC_BIN:$PATH"
