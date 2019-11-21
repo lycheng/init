@@ -1,6 +1,8 @@
-ln -s `pwd`/files/zshrc ~/.zshrc
-ln -s `pwd`/files/tmux.conf ~/.tmux.conf
+ln -s `pwd`/files/zshrc $HOME/.zshrc
+ln -s `pwd`/files/tmux.conf $HOME/.tmux.conf
 
+ln -s `pwd`/scripts/env.sh $HOME/.env.sh
+ln -s `pwd`/scripts/alias.sh $HOME/.alias.sh
 
 sh scripts/ubuntu.sh
 sh scripts/git.sh
