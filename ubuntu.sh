@@ -13,4 +13,3 @@ mkdir -p $HOME/projects
 mkdir -p $HOME/.config
 
 sudo pip install -r files/requirements
-npm install -g tldr

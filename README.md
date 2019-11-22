@@ -144,3 +144,10 @@ gsettings set org.gnome.shell.app-switcher current-workspace-only true
 # 安装字体
 sudo apt-get install fonts-powerline
 ```
+
+Extra Tools
+---
+
+ * tldr - https://github.com/tldr-pages/tldr
+ * httpie - https://httpie.org/
+ * fzf - https://github.com/junegunn/fzf.git

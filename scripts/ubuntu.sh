@@ -1,8 +1,9 @@
 sudo add-apt-repository ppa:neovim-ppa/unstable
 
+# install tools from apt
 sudo apt update && sudo apt upgrade
 sudo apt install git python-dev python-pip \
-    xclip zsh tmux \
+    xclip zsh tmux httpie \
     neovim exuberant-ctags cmake -y
 
 # oh my zsh
@@ -17,7 +18,6 @@ ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim .config/nvim
 ln -s ~/.vimrc .config/nvim/init.vim
 
-# vim requirements
 sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
 sudo update-alternatives --config vi
 sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
@@ -25,6 +25,11 @@ sudo update-alternatives --config vim
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 sudo update-alternatives --config editor
 
-# fzf
+# extra tools
+
+## fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+
+## tldr
+npm install -g tldr
