@@ -2,7 +2,8 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 
 # install tools from apt
 sudo apt update && sudo apt upgrade
-sudo apt install git python-dev python-pip \
+sudo apt install git curl \
+    python-dev python-pip \
     xclip zsh tmux httpie \
     neovim exuberant-ctags cmake -y
 
