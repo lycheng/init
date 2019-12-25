@@ -27,3 +27,6 @@ source $HOME/.alias.sh
 # For AWS
 AWS_VAULT_BACKEND=secret-service
 export AWS_VAULT_BACKEND
+
+# For fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
