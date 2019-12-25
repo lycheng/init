@@ -24,11 +24,9 @@ plugins=(git z golang python virtualenvwrapper kubectl docker)
 source $HOME/.env.sh
 source $HOME/.alias.sh
 
-# k8s
-source <(kubectl completion zsh)
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # For AWS
 AWS_VAULT_BACKEND=secret-service
 export AWS_VAULT_BACKEND
+
+# For fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

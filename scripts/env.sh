@@ -33,7 +33,7 @@ export GROOVY_HOME=$LOCALBIN/groovy
 export PATH="$GROOVY_HOME/bin:$PATH"
 
 # Rust
-export CARGO_HOME=$LOCALBIN/cargo/
+export CARGO_HOME=$LOCALBIN/cargo
 export PATH="$CARGO_HOME/bin:$PATH"
 
 # protoc

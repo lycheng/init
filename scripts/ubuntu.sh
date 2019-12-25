@@ -2,7 +2,8 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 
 # install tools from apt
 sudo apt update && sudo apt upgrade
-sudo apt install git python-dev python-pip \
+sudo apt install git curl \
+    python-dev python-pip \
     xclip zsh tmux httpie \
     neovim exuberant-ctags cmake -y
 
@@ -28,8 +29,8 @@ sudo update-alternatives --config editor
 # extra tools
 
 ## fzf
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+## git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+## ~/.fzf/install
 
 ## tldr
 npm install -g tldr
