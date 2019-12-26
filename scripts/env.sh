@@ -14,12 +14,12 @@ export GOPROXY=https://goproxy.io
 # export GOPROXY=http://mirrors.aliyun.com/goproxy/
 
 # NodeJS
-export NODEJSPATH=$LOCALBIN/node/bin
-export PATH="$NODEJSPATH:$PATH"
+export NODE_HOME=$LOCALBIN/node
+export PATH="$NODE_HOME/bin:$PATH"
 
 # Clang
-export CLANGPATH=$LOCALBIN/clang/bin
-export PATH="$CLANGPATH:$PATH"
+export CLANG_PATH=$LOCALBIN/clang/bin
+export PATH="$CLANG_PATH:$PATH"
 
 # Java
 export JAVA_HOME=$LOCALBIN/jdk

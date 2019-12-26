@@ -25,12 +25,3 @@ sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
 sudo update-alternatives --config vim
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 sudo update-alternatives --config editor
-
-# extra tools
-
-## fzf
-## git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-## ~/.fzf/install
-
-## tldr
-npm install -g tldr
