@@ -16,7 +16,7 @@ setopt HIST_BEEP
 unsetopt SHARE_HISTORY
 unsetopt INC_APPEND_HISTORY
 
-ZSH_THEME="jreese"
+ZSH_THEME="ys"
 
 plugins=(git z golang python virtualenvwrapper kubectl docker)
 
