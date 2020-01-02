@@ -3,6 +3,7 @@
 ## Node
 VERSION=v12.14.0
 PLATFORM=linux-x64
+
 cd $LOCALBIN
 wget https://npm.taobao.org/mirrors/node/${VERSION}/node-${VERSION}-${PLATFORM}.tar.gz
 tar -xvf node-${VERSION}-${PLATFORM}.tar.gz
