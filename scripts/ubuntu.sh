@@ -1,11 +1,19 @@
-sudo add-apt-repository ppa:neovim-ppa/unstable
-
 # install tools from apt
 sudo apt update && sudo apt upgrade
-sudo apt install git curl \
+sudo apt install \
+    git curl \
     python-dev python-pip \
+    python3-dev python3-pip \
     xclip zsh tmux httpie \
-    exuberant-ctags cmake -y
+    exuberant-ctags cmake \
+    -y
 
 # oh my zsh
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+# fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts

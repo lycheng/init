@@ -21,8 +21,8 @@ ZSH_THEME="ys"
 plugins=(git z golang python virtualenvwrapper kubectl docker)
 
 # env & alias
-source $HOME/.env.sh
-source $HOME/.alias.sh
+[ -f ~/.env.sh ] && source $HOME/.env.sh
+[ -f ~/.alias.sh ] && source $HOME/.alias.sh
 
 # For AWS
 AWS_VAULT_BACKEND=secret-service

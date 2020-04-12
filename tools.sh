@@ -10,12 +10,13 @@ tar -xvf node-${VERSION}-${PLATFORM}.tar.gz
 mv node-${VERSION}-${PLATFORM} node
 
 ## fzf
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+if [ -f ~/.fzf.zsh ]
+then
+    echo "fzf installed"
+else
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
+fi
 
 ## tldr
 npm install -g tldr
-
-## Rust
-mkdir $CARGO_HOME -p
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

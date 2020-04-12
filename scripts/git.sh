@@ -1,4 +1,4 @@
-ln -s `pwd`/files/git-commit-template.txt ~/.git-commit-template
+ln -s `pwd`/files/git-commit-template $HOME/.git-commit-template
 
 wget \
     -O ~/bin/diff-so-fancy \

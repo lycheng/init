@@ -32,10 +32,6 @@ export PATH="$JAVA_HOME/bin:$MAVEN_HOME/bin:$SPRING_HOME/bin:$PATH"
 export GROOVY_HOME=$LOCALBIN/groovy
 export PATH="$GROOVY_HOME/bin:$PATH"
 
-# Rust
-export CARGO_HOME=$LOCALBIN/cargo
-export PATH="$CARGO_HOME/bin:$PATH"
-
 # protoc
 export PROTOC_BIN=$LOCALBIN/protoc/bin
 export PATH="$PROTOC_BIN:$PATH"
