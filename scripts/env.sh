@@ -21,6 +21,9 @@ export PATH="$NODE_HOME/bin:$PATH"
 export CLANG_PATH=$LOCALBIN/clang/bin
 export PATH="$CLANG_PATH:$PATH"
 
+# Cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Java
 export JAVA_HOME=$LOCALBIN/jdk
 export JRE_HOME=$LOCALBIN/jdk/jre

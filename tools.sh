@@ -9,6 +9,9 @@ wget https://npm.taobao.org/mirrors/node/${VERSION}/node-${VERSION}-${PLATFORM}.
 tar -xvf node-${VERSION}-${PLATFORM}.tar.gz
 mv node-${VERSION}-${PLATFORM} node
 
+## Cargo
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 ## fzf
 if [ -f ~/.fzf.zsh ]
 then
