@@ -2,10 +2,10 @@
 sudo apt update && sudo apt upgrade
 sudo apt install \
     git curl \
+    exuberant-ctags cmake \
     python-dev python-pip \
     python3-dev python3-pip \
-    xclip zsh tmux httpie \
-    exuberant-ctags cmake \
+    xclip zsh tmux httpie flameshot \
     -y
 
 # oh my zsh

@@ -1,5 +1,8 @@
 # extra tools
 
+## Python
+sudo pip install -r files/requirements
+
 ## Node
 VERSION=v12.14.0
 PLATFORM=linux-x64
@@ -20,3 +23,8 @@ fi
 
 ## tldr
 npm install -g tldr
+
+## Rust
+## Or download the binary: https://github.com/BurntSushi/ripgrep/releases
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cargo install ripgrep

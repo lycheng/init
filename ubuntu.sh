@@ -11,5 +11,3 @@ mkdir -p $HOME/bin/virtualenv
 mkdir -p $HOME/bin/node
 mkdir -p $HOME/projects
 mkdir -p $HOME/.config
-
-sudo pip install -r files/requirements
