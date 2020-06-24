@@ -1,12 +1,6 @@
 ln -s `pwd`/files/git-commit-template $HOME/.git-commit-template
 
-wget \
-    -O $HOME/bin/diff-so-fancy \
-    https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy
-
-chmod +x $HOME/bin/diff-so-fancy
-
-# git diff
+# git core config
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 git config --global color.ui true
 git config --global color.diff-highlight.oldNormal    "red bold"

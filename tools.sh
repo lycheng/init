@@ -23,6 +23,7 @@ fi
 
 ## tldr
 npm install -g tldr --registry https://registry.npm.taobao.org
+npm install -g diff-so-fancy --registry https://registry.npm.taobao.org
 
 ## Rust
 ## Or download the binary: https://github.com/BurntSushi/ripgrep/releases
