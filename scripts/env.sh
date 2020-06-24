@@ -46,3 +46,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 # PIP user path
 export PIP_USER_BIN=$HOME/.local/bin
 export PATH="$PIP_USER_BIN:$PATH"
+
+# Cargo
+source $HOME/.cargo/env

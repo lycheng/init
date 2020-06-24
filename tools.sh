@@ -22,7 +22,7 @@ else
 fi
 
 ## tldr
-npm install -g tldr
+npm install -g tldr --registry https://registry.npm.taobao.org
 
 ## Rust
 ## Or download the binary: https://github.com/BurntSushi/ripgrep/releases
