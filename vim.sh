@@ -1,4 +1,4 @@
-VERSION=v0.4.3
+VERSION=v0.4.4
 BIN_PATH=/usr/bin/nvim
 
 sudo curl -fLo ${BIN_PATH} https://github.com/neovim/neovim/releases/download/${VERSION}/nvim.appimage
