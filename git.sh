@@ -1,6 +1,3 @@
-ln -s `pwd`/files/git-commit-template $HOME/.git-commit-template
-
-# git core config
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 git config --global color.ui true
 git config --global color.diff-highlight.oldNormal    "red bold"
