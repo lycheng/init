@@ -44,7 +44,7 @@ export PATH="/snap/bin:$PATH"
 
 # Python virtualenvwrapper
 export WORKON_HOME=$LOCALBIN/virtualenv
-source /usr/local/bin/virtualenvwrapper.sh
+[ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
 
 # PIP user path
 export PIP_USER_BIN=$HOME/.local/bin

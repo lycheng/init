@@ -1,7 +1,7 @@
 init
 ===
 
-personal linux config @ ubuntu 18.04 LTS
+personal linux config @ kubuntu 20.04 LTS
 
 简述
 ---
@@ -128,21 +128,6 @@ git config --global core.editor vim
 # Git commit template
 # from: https://juejin.im/post/5afc5242f265da0b7f44bee4
 git config --global commit.template ~/.git-commit-template
-```
-
-### GNOME
-
-```
-# 设置 GNOME 只在当前的 workspace 切换程序
-gsettings set org.gnome.shell.app-switcher current-workspace-only true
-```
-
-
-### Powerline
-
-```
-# 安装字体
-sudo apt-get install fonts-powerline
 ```
 
 Extra Tools
