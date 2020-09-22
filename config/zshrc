@@ -24,12 +24,12 @@ ZSH_THEME="ys"
 
 plugins=(git z golang python virtualenvwrapper kubectl docker)
 
-# For AWS
-AWS_VAULT_BACKEND=secret-service
-export AWS_VAULT_BACKEND
+# setup oh-my-zsh
+source $ZSH/oh-my-zsh.sh
 
 # For fzf
 [ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
 
-# setup oh-my-zsh
-source $ZSH/oh-my-zsh.sh
+# For AWS
+AWS_VAULT_BACKEND=secret-service
+export AWS_VAULT_BACKEND
