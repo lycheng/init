@@ -1,7 +1,6 @@
 export EDITOR=nvim
 
 # Local bin path config
-source $ZSH/oh-my-zsh.sh
 export LOCALBIN=$HOME/bin
 export PATH="$LOCALBIN:$PATH"
 
@@ -20,9 +19,6 @@ export PATH="$NODE_HOME/bin:$PATH"
 # Clang
 export CLANG_PATH=$LOCALBIN/clang/bin
 export PATH="$CLANG_PATH:$PATH"
-
-# Cargo
-export PATH="$HOME/.cargo/bin:$PATH"
 
 # Java
 export JAVA_HOME=$LOCALBIN/jdk

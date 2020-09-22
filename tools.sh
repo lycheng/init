@@ -44,4 +44,3 @@ npm install -g tldr --registry https://registry.npm.taobao.org
 
 ## diff-so-fancy
 npm install -g diff-so-fancy --registry https://registry.npm.taobao.org
-

@@ -1,10 +1,10 @@
 .PHONY: ubuntu-base ubuntu-fonts ubuntu-vim
 
 ubuntu-base:
-	./ubuntu/base.sh
+	@bash ubuntu/base.sh
 
 ubuntu-fonts:
-	./ubuntu/fonts.sh
+	@bash ubuntu/fonts.sh
 
 ubuntu-vim:
-	./ubuntu/vim.sh
+	@bash ubuntu/vim.sh
