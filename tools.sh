@@ -44,3 +44,4 @@ npm install -g tldr --registry https://registry.npm.taobao.org
 
 ## diff-so-fancy
 npm install -g diff-so-fancy --registry https://registry.npm.taobao.org
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
