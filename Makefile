@@ -10,4 +10,4 @@ ubuntu-vim:
 	@bash ubuntu/vim.sh
 
 chsh:
-	chsh -s $(which zsh)
+	@chsh -s $$(which zsh)
