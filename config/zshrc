@@ -1,6 +1,7 @@
 # global env
 [ -f $HOME/.env ] && source $HOME/.env
 [ -f $HOME/.alias ] && source $HOME/.alias
+[ "$WSLENV" ] && source $HOME/.wsl2.env
 
 # oh-my-zsh env
 export LANG=en_US.UTF-8

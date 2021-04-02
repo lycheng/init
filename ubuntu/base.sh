@@ -7,6 +7,9 @@ do
     ln -s `pwd`/config/$f $HOME/.$f
 done
 
+# For WSL2
+[ "$WSLENV" ] && ln -s `pwd`/config/wsl2.env $HOME/.wsl2.env
+
 source $HOME/.env
 
 # init folders

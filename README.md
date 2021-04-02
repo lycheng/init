@@ -140,6 +140,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Extra Tools
 ---
 
- * tldr - https://github.com/tldr-pages/tldr
- * httpie - https://httpie.org/
- * fzf - https://github.com/junegunn/fzf.git
+* tldr - https://github.com/tldr-pages/tldr
+* httpie - https://httpie.org/
+* fzf - https://github.com/junegunn/fzf.git
