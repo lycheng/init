@@ -45,3 +45,6 @@ export WORKON_HOME=$LOCALBIN/virtualenv
 # PIP user path
 export PIP_USER_BIN=$HOME/.local/bin
 export PATH="$PIP_USER_BIN:$PATH"
+
+# Rust
+[ -f $HOME/.cargo/env ] && source $HOME/.cargo/env
