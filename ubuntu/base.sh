@@ -28,8 +28,8 @@ then
     sudo ln -s /usr/bin/pip3 /usr/bin/pip
 fi
 
-# oh my zsh
-if [ ! -d $HOME/.oh-my-zsh ]
+# zinit
+if [ ! -d $HOME/.zinit ]
 then
-    git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 fi

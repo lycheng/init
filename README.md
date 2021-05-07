@@ -56,12 +56,7 @@ prefix 是 `ctrl + x`
 zsh
 ---
 
-使用 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 来管理 zsh 配置文件
-
-目前设置了几个环境变量
-
-1. Golang 的 `$GOPATH`
-2. virtualenvwrapper 的 `$WORKON_HOME`
+使用 [zinit](https://github.com/zdharma/zinit) 来配置 console
 
 Node.js
 ---

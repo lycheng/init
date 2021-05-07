@@ -10,7 +10,6 @@ fi
 [ -f $HOME/.alias ] && source $HOME/.alias
 [ "$WSLENV" ] && source $HOME/.wsl2.env
 
-# oh-my-zsh env
 export LANG=en_US.UTF-8
 
 # http://leetschau.github.io/remove-duplicate-zsh-history.html
@@ -31,7 +30,6 @@ unsetopt INC_APPEND_HISTORY
 [ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
 
 # For Autojump
-
 [ -f /usr/share/autojump/autojump.zsh ] && source /usr/share/autojump/autojump.zsh
 
 # For AWS
