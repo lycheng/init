@@ -26,9 +26,6 @@ setopt HIST_BEEP
 unsetopt SHARE_HISTORY
 unsetopt INC_APPEND_HISTORY
 
-# For fzf
-[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
-
 # For Autojump
 [ -f /usr/share/autojump/autojump.zsh ] && source /usr/share/autojump/autojump.zsh
 
@@ -74,3 +71,6 @@ zinit snippet OMZ::lib/theme-and-appearance.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# For fzf
+[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
