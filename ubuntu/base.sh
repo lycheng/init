@@ -20,7 +20,9 @@ mkdir -p $HOME/.config
 sudo apt update && sudo apt upgrade
 sudo apt install git curl exuberant-ctags cmake \
     python3-dev python3-pip xclip zsh tmux httpie flameshot \
-    python-is-python3 -y
+    python-is-python3 \
+    ocaml \
+    -y
 
 # pip symbolic links
 if [ ! -f /usr/bin/pip ]
