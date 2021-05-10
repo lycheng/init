@@ -1,23 +1,40 @@
-init
-===
+# Init
 
-personal linux config @ kubuntu 20.04 LTS
+Personal Linux dot files, tested in
 
-简述
+* Kubuntu 20.04 LTS
+* Ubuntu 20.04 LTS with WSL2
+
+Base
 ---
 
-包含 Zsh + Tmux + Vim + Python + Golang 环境
+tools
 
-在所有的更新结束之后执行下面的命令修改默认的 shell
+* Tmux
+* Neovim
+* fzf
+* tldr
+* ripgrep
+
+languages environment
+
+* Node
+* Golang
+* Java
+* Python
+* Rust
+* OCaml
+
 
 ```
+# to set zsh as default shell
 chsh -s `/bin/zsh`
 ```
 
 tmux
 ---
 
-prefix 是 `ctrl + x`
+prefix `ctrl + x`
 
 常用快捷键
 
@@ -56,28 +73,12 @@ prefix 是 `ctrl + x`
 zsh
 ---
 
-使用 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) 来管理 zsh 配置文件
+使用 [zinit](https://github.com/zdharma/zinit) 来配置 console
 
-目前设置了几个环境变量
-
-1. Golang 的 `$GOPATH`
-2. virtualenvwrapper 的 `$WORKON_HOME`
-
-Node.js
+Node
 ---
 
-现在使用的是下载然后编译安装的方式，路径为 `$HOME/bin/node`
-
-```
-git clone https://github.com/nodejs/node
-cd node
-./configure --prefix=$HOME/bin/node
-make install
-
-cd ..
-git clone https://github.com/npm/npm
-make install
-```
+bin 路径为 `$HOME/bin/node`
 
 Python
 ---
@@ -135,6 +136,23 @@ git config --global commit.template ~/.git-commit-template
 ```
 # https://www.rust-lang.org/tools/install
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### OCaml
+
+```
+# https://ocaml.org/docs/install.html
+sudo apt install ocaml
+
+# environment setup
+opam init
+eval $(opam env)
+# install given version of the compiler
+opam switch create 4.12.0
+eval $(opam env)
+# check you got what you want
+which ocaml
+ocaml -version
 ```
 
 Extra Tools
