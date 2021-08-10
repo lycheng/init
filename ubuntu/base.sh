@@ -19,9 +19,10 @@ mkdir -p $HOME/.config
 
 sudo apt update && sudo apt upgrade
 sudo apt install git curl exuberant-ctags cmake \
-    python3-dev python3-pip xclip zsh tmux httpie flameshot \
-    python-is-python3 \
+    python3-dev python3-pip python-is-python3 \
+    xclip zsh tmux httpie flameshot \
     ocaml \
+    neovim autojump \
     -y
 
 # pip symbolic links

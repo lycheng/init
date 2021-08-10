@@ -1,12 +1,4 @@
-VERSION=v0.4.4
 BIN_PATH=/usr/bin/nvim
-
-if [ ! -f "/usr/bin/nvim" ]
-then
-    curl -fLo /tmp/nvim.tar.gz https://github.com/neovim/neovim/releases/download/${VERSION}/nvim-linux64.tar.gz
-    tar -xvf /tmp/nvim.tar.gz -C /tmp
-    sudo mv /tmp/nvim-linux64/bin/nvim $BIN_PATH && sudo chmod a+x /usr/bin/nvim
-fi
 
 if [ ! -d "$HOME/.vim" ]
 then
