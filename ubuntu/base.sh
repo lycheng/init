@@ -22,7 +22,7 @@ sudo apt install git curl exuberant-ctags cmake \
     python3-dev python3-pip python-is-python3 \
     xclip zsh tmux httpie flameshot \
     ocaml \
-    neovim autojump \
+    autojump \
     -y
 
 # pip symbolic links
